@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MEAN Stack boiler plate</title>
+        <link href="libs/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body ng-app="angular">
+
+        <header ng-include="'templates/header.html'"></header>
+
+            <div ui-view></div>      
+
+        <footer ng-include="'templates/footer.html'"></footer>
+
+    <!-- NPM Packages -->
+
+        <!-- //Jquery COMPONENTS -->
+        <script src="libs/jquery/dist/jquery.min.js"></script>
+
+        <!-- //Bootstrap COMPONENTS -->
+        <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- //Angular & UI-Router -->
+        <script src="libs/angular/angular.js"></script> 
+        <script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+        <!-- //ngAnimate -->
+        <script src="libs/angular-animate/angular-animate.min.js"></script>
+        
+        <!-- Include Factorys/Services/Directives here -->
+       
+
+        <!-- Include controllers here -->
+       
+        <!-- MAIN App file --> 
+        <script src="js/app.js"></script>
+    </body>
+</html>
